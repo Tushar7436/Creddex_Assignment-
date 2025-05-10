@@ -16,30 +16,7 @@ export const metadata: Metadata = {
     "unused software licenses",
     "software asset management",
     "license valuation",
-  ],
-  authors: [{ name: "SoftSell" }],
-  creator: "SoftSell",
-  publisher: "SoftSell",
-  openGraph: {
-    type: "website",
-    locale: "en_US",
-    url: "https://softsell.example.com",
-    title: "SoftSell - Maximize the Value of Your Unused Software Licenses",
-    description: "Turn your idle software assets into cash with our secure and efficient platform.",
-    siteName: "SoftSell",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "SoftSell - Maximize the Value of Your Unused Software Licenses",
-    description: "Turn your idle software assets into cash with our secure and efficient platform.",
-    creator: "@softsell",
-  },
-  icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
-    apple: "/apple-touch-icon.png",
-  },
-    generator: 'v0.dev'
+  ]
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
